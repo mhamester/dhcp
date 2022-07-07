@@ -1,0 +1,5 @@
+[os10_sw1]
+os10_sw1 ansible_host=192.168.1.200
+
+[os10_switches:children]
+os10_sw1
